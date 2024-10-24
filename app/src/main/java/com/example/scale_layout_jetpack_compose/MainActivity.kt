@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             Scale_Layout_jetpack_composeTheme {
-                Scale(MinValue = 10, MaxValue = 100 )
+                Scale(MinValue = 10, MaxValue = 100,horizontal = true)
             }
         }
     }
